@@ -164,16 +164,37 @@ p {
   line-height: 1.4;
 }
 
-.container {
+.container,
+.container-about-page {
   width: 800px;
   margin: 0 auto;
 }
-
+.first-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.plan,
+.work,
+.office,
+.meet {
+  width: 46%;
+}
 .top-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding-top: 5%;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+.about-top-content,
+.first-content,
+.second-content {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
 }
@@ -277,4 +298,8 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+.about-footer {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
