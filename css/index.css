@@ -147,7 +147,19 @@ h5 {
   margin-bottom: 15px;
   font-family: 'Rubik', sans-serif;
 }
-
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.top-nav a {
+  margin-top: 4%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
 p {
   line-height: 1.4;
 }
@@ -161,6 +173,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-top: 5%;
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
 }
@@ -231,7 +244,7 @@ p {
 .bottom-content {
   display: flex;
   max-width: 100%;
-  margin: 0 2% 10px;
+  margin: 0 2% 0px;
   justify-content: space-around;
 }
 
